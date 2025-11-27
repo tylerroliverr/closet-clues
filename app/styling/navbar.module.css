@@ -1,0 +1,131 @@
+@media screen and (width >= 768px) {
+  .navbarMobile {
+    display: none;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 135px;
+    padding: 10px 0 0 10px;
+  }
+  
+  .navbarTitle {
+    font-size: 20px;
+    font-family: 'PPMont Bold';
+    padding-bottom: 10px;
+  }
+  
+  .navbarLinks {
+    border-right: black 1px solid;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .sizeButtons {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    gap: 5px;
+  }
+  
+  .plus,
+  .minus {
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (width <= 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbarContainerMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navbarTitle {
+    font-family: 'PPMont Bold';
+    font-size: 24px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* menu button styles */
+  .menuButton {
+    font-family: 'PPMont Bold';
+    font-size: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px 2px;
+    color: black;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* default hidden */
+  .navbarLinksMobile {
+    display: none; 
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .linksContainer {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-30%);
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: "PPMont Bold";
+  }
+  
+  /* when open — we make it visible */
+  .open {
+    display: flex;             
+  }
+
+  .openText {
+    color: white;
+  }
+
+  .sizeButtons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .plus, .minus {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .menuImage {
+    width: auto;
+    height: 120dvh;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30%;
+  }
+  
+}

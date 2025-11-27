@@ -1,0 +1,58 @@
+@media screen and (width >= 768px) {
+  .projectContainerMobile {
+    display: none;
+  }
+
+  .titleContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    line-height: 80px;
+  }
+  
+  .projectTitle {
+    font-size: 100px;
+  }
+  
+  .projectDate {
+    font-size: 50px;
+  
+    /* idk about this line height on different screens. */
+    line-height: 40px;
+  }
+  
+  .projectDescription {
+    width: 60%;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .projectContainerMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .titleContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .projectTitle {
+    font-family: "PPMont Bold";
+  }
+
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}

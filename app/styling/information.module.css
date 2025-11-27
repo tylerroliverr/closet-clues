@@ -1,0 +1,25 @@
+.infoContainer {
+  position: absolute;
+  left: 150px;
+  top: 44px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 89%;
+}
+
+.infoDescription {
+  width: 60%;
+  padding-bottom: 62px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 500px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 60%;
+}

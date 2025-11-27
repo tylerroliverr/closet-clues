@@ -1,0 +1,69 @@
+@media screen and (width >= 786px) {
+  .projectContainer {
+    position: absolute;
+    left: 150px;
+    top: 44px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    width: 89%;
+  }
+  
+  .titleContainer {
+    border-bottom: solid black 1px;
+    transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+    cursor: pointer;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+  
+  .firstContainer {
+    border-top: solid black 1px;
+  }
+  
+  .titleContainer p {
+    font-size: 100px;
+  }
+  
+  .titleContainer:hover {
+    background: black;
+    color: white;
+    font-style: italic;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .projectContainer {
+    display: none;
+  }
+
+  .projectContainerMobile {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    place-content: center;
+    padding: 0 10px;
+    gap: 10px;
+    position: relative;
+  }
+
+  .projectImage {
+    width: 180px;
+    height: 260px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pageTitle {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 100px;
+    font-family: "PPMont Bold";
+    mix-blend-mode: difference;
+    color: white;
+  }
+}
