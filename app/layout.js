@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <SizeProvider>
           <Navbar />
+          <div className="spacer"></div>
           {children}
         </SizeProvider>
       </body>

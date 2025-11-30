@@ -46,22 +46,21 @@ export default function Navbar() {
         </div>
       </div>
 
+      <div className={` ${styles.navbarContainerMobile} ${open ? styles.openText : ''}`}>
+        <a href="/"><h1 className={`${styles.navbarTitle} ${open ? styles.openText : ''}`}>Closet Clues</h1></a>
+
+        {/* Use a button for accessibility */}
+        <button
+          type="button"
+          className={`${styles.menuButton} ${open ? styles.openText : ''}`}
+          aria-expanded={open}
+          aria-controls="mobile-nav-links"
+          onClick={() => setOpen(prev => !prev)}
+        >
+          {open ? 'Close' : 'Menu'}
+        </button>
+      </div>
       <div className={styles.navbarMobile}>
-        <div className={styles.navbarContainerMobile}>
-          <a href="/"><h1 className={`${styles.navbarTitle} ${open ? styles.openText : ''}`}>Closet Clues</h1></a>
-
-          {/* Use a button for accessibility */}
-          <button
-            type="button"
-            className={`${styles.menuButton} ${open ? styles.openText : ''}`}
-            aria-expanded={open}
-            aria-controls="mobile-nav-links"
-            onClick={() => setOpen(prev => !prev)}
-          >
-            {open ? 'Close' : 'Menu'}
-          </button>
-        </div>
-
         {/* Either show/hide with a class or inline style; id used for aria-controls */}
         <div
           id="mobile-nav-links"
@@ -74,6 +73,7 @@ export default function Navbar() {
               className={styles.image}
               width={800}
               height={1200}
+              loading="eager"
             ></Image>
           </div>
           <div className={styles.linksContainer}>

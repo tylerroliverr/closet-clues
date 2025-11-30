@@ -30,7 +30,51 @@ export default function Editorial() {
         <div className={styles.pageTitle}>
           <p>Editorial</p>
         </div>
-        <a href="/editorial/atlein">
+        <div className={styles.projectList}>
+          <a href="/editorial/atlein">
+            <div className={styles.projectImageContainer}>
+              <div className={styles.projectImage}>
+                <Image
+                  src="/menu.png"
+                  alt=""
+                  className={styles.image}
+                  width={800}
+                  height={1200}
+                ></Image>
+              </div>
+              <div className={styles.projectName}>
+                <p>Atlein</p>
+              </div>
+            </div>
+          </a>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/temp-photos/infopage.jpg"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
+          </div>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/temp-photos/infopage.jpg"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
+          </div>
           <div className={styles.projectImageContainer}>
             <div className={styles.projectImage}>
               <Image
@@ -45,131 +89,89 @@ export default function Editorial() {
               <p>Atlein</p>
             </div>
           </div>
-        </a>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/temp-photos/infopage.jpg"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/menu.png"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
           </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/temp-photos/infopage.jpg"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
           </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/temp-photos/infopage.jpg"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/temp-photos/infopage.jpg"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
           </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/menu.png"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
           </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/menu.png"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/menu.png"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
           </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
-          </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/menu.png"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
-          </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
-          </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/temp-photos/infopage.jpg"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
-          </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
-          </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/temp-photos/infopage.jpg"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
-          </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
-          </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/menu.png"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
-          </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
-          </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/menu.png"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
-          </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
-          </div>
-        </div>
-        <div className={styles.projectImageContainer}>
-          <div className={styles.projectImage}>
-            <Image
-              src="/temp-photos/infopage.jpg"
-              alt=""
-              className={styles.image}
-              width={800}
-              height={1200}
-            ></Image>
-          </div>
-          <div className={styles.projectName}>
-            <p>Atlein</p>
+          <div className={styles.projectImageContainer}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/temp-photos/infopage.jpg"
+                alt=""
+                className={styles.image}
+                width={800}
+                height={1200}
+              ></Image>
+            </div>
+            <div className={styles.projectName}>
+              <p>Atlein</p>
+            </div>
           </div>
         </div>
       </div>

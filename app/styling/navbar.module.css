@@ -52,13 +52,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    mix-blend-mode: difference;
+    color: white;
   }
   
   .navbarTitle {
     font-family: 'PPMont Bold';
     font-size: 24px;
-    position: relative;
-    z-index: 10;
   }
   
   /* menu button styles */
@@ -69,19 +74,22 @@
     border: none;
     cursor: pointer;
     padding: 6px 2px;
-    color: black;
-    position: relative;
-    z-index: 10;
+    color: white;
   }
   
   /* default hidden */
+  .navbarMobile {
+    position: relative;
+  }
+
   .navbarLinksMobile {
     display: none; 
     flex-direction: column;
     gap: 12px;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
+    z-index: 99;
   }
   
   .linksContainer {
@@ -103,6 +111,7 @@
 
   .openText {
     color: white;
+    mix-blend-mode: normal;
   }
 
   .sizeButtons {
